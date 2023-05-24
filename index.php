@@ -188,7 +188,7 @@ function isInt($word){
     echo isInt(is_int(32.5));
 
 
-    
+
 /*20. Viết một chương trình PHP để kiểm tra xem một chuỗi có phải là 
 một email hợp lệ hay không sử dụng hàm filter_var()*/
 function isEmail($word){
@@ -202,5 +202,7 @@ function isEmail($word){
     echo "<br>";
     echo isEmail(filter_var("lanluu^nsmsls.com", FILTER_VALIDATE_EMAIL));
 ?>
+
+<h2>LÀM BÀI TẬP TỪ 1 - 20</h2>
 </body>
 </html>
